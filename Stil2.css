@@ -1,0 +1,75 @@
+<body>
+        <form action="registrer.html">
+          <input type="text"name="navn"placeholder="Hva heter du?"required><br>
+            <label>Hva ønsker du å drikke til maten?</label><br>
+            <br>
+            <select name="velgMat"required>
+              <option value="">Hva ønsker du å spise?</option>
+              <option value="pizza">Pizza</option>
+              <option value="Kebab">Kebab</option>
+              <option value="taco">Taco</option>
+            </select>
+            <button type="submit">OK</button>
+        </form>
+    </body>
+    <body>
+     <form action="register.html">
+        <select name="velgkontinent">
+          <option value="Overskrift">Hvor vil du reise</option>
+          <option value="Europa">Europa</option>
+          <option value="Asia">Asia</option>
+          <option value="Nord-Amerika">Nord-Amerika</option>
+          <option value="Sør-Amerika">Sør-Amerika</option>
+        <input type="text">
+        <input type="text">
+        <input type="number">
+        <input type="color">
+        <input type="range">
+        <input type="date">
+        <input type="password">
+        <input type="radio">
+        <input type="checkbox">
+        </select>
+      </form>
+    </body>
+body{
+    text-align: inherit;
+    background-color: cadetblue;
+} 
+p::first-letter{
+              font-size: 50px;
+          }
+          p::first-line{
+              color: black;
+          }
+          p::selection{
+              color: azure;
+          }
+          q::before{
+              content: "«";
+          }
+          q:after{
+              content: "»";
+          }
+          h1{
+              font-family: TimesNewRoman;
+              font-size: 42px;
+              color: darkblue;
+              background-blend-mode: color;
+              background-color: azure;
+              text-align: center;
+          }
+          img:active{
+              width: 75px
+              
+          }
+          img{
+                    width:1000px;
+                    border-width: 25px;
+                    border-style: hidden;
+                    border-bottom-color: black;
+                    border-radius: 100px;
+                    border-radius: 15%;
+                    margin-right: 50px;
+                    box-shadow: black;
+          }

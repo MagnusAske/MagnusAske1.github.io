@@ -1,0 +1,41 @@
+body{
+    text-align: inherit;
+    background-color: cadetblue;
+} 
+p::first-letter{
+              font-size: 50px;
+          }
+          p::first-line{
+              color: black;
+          }
+          p::selection{
+              color: azure;
+          }
+          q::before{
+              content: "«";
+          }
+          q:after{
+              content: "»";
+          }
+          h1{
+              font-family: TimesNewRoman;
+              font-size: 42px;
+              color: darkblue;
+              background-blend-mode: color;
+              background-color: azure;
+              text-align: center;
+          }
+          img:active{
+              width: 25px
+              
+          }
+          img{
+                    width:575px;
+                    border-width: 15px;
+                    border-style: hidden;
+                    border-bottom-color: black;
+                    border-radius: 100px;
+                    border-radius: 40%;
+                    margin-right: 50px;
+                    box-shadow: black;
+          }
