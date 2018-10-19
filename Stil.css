@@ -17,6 +17,9 @@ p::first-letter{
           q:after{
               content: "»";
           }
+          a{
+          color: azure;
+          }
           h1{
               font-family: TimesNewRoman;
               font-size: 42px;
@@ -26,7 +29,7 @@ p::first-letter{
               text-align: center;
           }
           img:active{
-              width: 25px
+              width: 75px
               
           }
           img{
@@ -39,3 +42,21 @@ p::first-letter{
                     margin-right: 50px;
                     box-shadow: black;
           }
+          .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 75%;
+          }
+          img{
+              box-shadow: 200px 100px 50px black;
+              box-shadow: -200px 100px 0 darkslateblue;
+              box-shadow: 0px 0px 50px darkslateblue;
+          }
+          #avsnitt {
+          width: 700px;
+          margin: 50px;
+          }
+         .meny{
+         text-align: center;
+         }

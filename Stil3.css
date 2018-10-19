@@ -1,14 +1,7 @@
-<body>
-    <header>
-      <nav>
-        <a href="idex.html">Reisemål</a>
-        <a href="index2.html">Havet</a>
-        <a href="index3.html">Fjellet</a>
-      </nav>
-    </header>
-  </body>
+
 body{
     text-align: inherit;
+    background-color: cadetblue;
 } 
 p::first-letter{
               font-size: 50px;
@@ -25,6 +18,9 @@ p::first-letter{
           q:after{
               content: "»";
           }
+          a{
+          color: azure;
+          }
           h1{
               font-family: TimesNewRoman;
               font-size: 42px;
@@ -38,7 +34,7 @@ p::first-letter{
               
           }
           img{
-                    width:805px;
+                    width:1000px;
                     border-width: 15px;
                     border-style: hidden;
                     border-bottom-color: black;
@@ -48,9 +44,20 @@ p::first-letter{
                     box-shadow: black;
                     text-align: center;
           }
+video{
+    border-radius: 75px;
+    box-shadow: 200px 100px 50px black;
+              box-shadow: -200px 100px darkslateblue;
+              box-shadow: 0px 0px 50px darkslateblue;
+    
+}
           .center {
           display: block;
           margin-left: auto;
           margin-right: auto;
-          width: 50%;
+          width: 75%;
           }
+          img{
+              box-shadow: 200px 100px 50px black;
+              box-shadow: -200px 100px 0 darkslateblue;
+              box-shadow: 0px 0px 50px darkslateblue;
